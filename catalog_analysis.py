@@ -211,10 +211,4 @@ def build_report(movies):
  
  
 if __name__ == "__main__":
-    print_not_comedy(movies)
-    find_first_masterpiece(movies)
-    find_first_masterpiece(movies[:5])
-    print()
-    print_high_rated(movies)
-    print()
     build_report(movies)
